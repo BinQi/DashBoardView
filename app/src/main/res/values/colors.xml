@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="common_blue">#0000FF</color>
+    <color name="common_green">#FF48D867</color>
+    <color name="common_yellow">#8CC152</color>
+    <color name="common_orange">#FFFA904A</color>
+    <color name="common_red">#ED5565</color>
+    <!--  背景颜色  -->
+    <color name="common_bg">#14132D</color>
+    <color name="common_button_bg_pressed">#4D2A375A</color>
+    <!--  卡片颜色  -->
+    <color name="common_card">#22243B</color>
+    <!--  主色  -->
+    <color name="main_color">#2FEBFC</color>
+    <!--  原本的纯白色文字  -->
+    <color name="common_text_white">#FFFFFF</color>
+    <!--  标题文字颜色  -->
+    <color name="common_title_color">#FFA0C6DC</color>
+    <!--  主要文字颜色  -->
+    <color name="common_text_main">#A0C6DC</color>
+    <!--  次要文字颜色  -->
+    <color name="common_text_sub">#7FA0C6DC</color>
+    <!--  图标/按钮颜色（从左到右渐变）  -->
+    <color name="bt_normal_start">#1ED4E4</color>
+    <color name="bt_normal_end">#0F9AD1</color>
+    <!--  按钮按下去的颜色（从左到右渐变） -->
+    <color name="bt_pressed_start">#0EBFCF</color>
+    <color name="bt_pressed_end">#028FC7</color>
+
+    <!--  主界面  -->
+    <color name="home_main_panel_dbv_info">#7BFFFFFF</color>
+    <color name="home_main_panel_title">@color/common_text_white</color>
+    <color name="dbv_start">#A840FF</color>
+    <color name="dbv_normal">@color/main_color</color>
+    <color name="dbv_urge">#FF2471</color>
+    <color name="text_urge">#E06993</color>
+
+    <color name="wechat_clean_voice_tips">#292D53</color>
+    <color name="wechat_clean_voice_tips_text_color">#7fffffff</color>
+
+    <!--  应用管理界面  -->
+    <color name="app_man_tab_txt_normal">@color/common_title_color</color>
+    <color name="app_man_tab_txt_select">@color/common_text_white</color>
+
+    <integer-array name="ex_bg_colors">
+        <item>@color/common_blue</item>
+        <item>@color/common_green</item>
+        <item>@color/common_yellow</item>
+        <item>@color/common_orange</item>
+        <item>@color/common_red</item>
+    </integer-array>
+
+    <integer-array name="ex_primary_colors">
+        <item>@color/common_green</item>
+        <item>@color/common_red</item>
+    </integer-array>
+</resources>

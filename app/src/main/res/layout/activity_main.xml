@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/common_bg"
+        tools:context=".MainActivity">
+
+        <com.wbq.view.dashboardview.DashboardView
+            android:id="@+id/dbv"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:startColor="@color/dbv_start" />
+
+        <com.wbq.view.dashboardview.DashboardView
+            android:id="@+id/dbv1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toLeftOf="@id/dbv"
+            app:layout_constraintTop_toBottomOf="@id/dbv"
+            app:section="4"
+            app:portion="10"
+            app:startColor="@color/dbv_start"
+            app:primaryColors="@array/ex_primary_colors"
+            app:titles="@array/txt_titles" />
+
+        <com.wbq.view.dashboardview.DashboardView
+            android:id="@+id/dbv2"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="10dp"
+            app:layout_constraintLeft_toLeftOf="@id/dbv1"
+            app:layout_constraintTop_toBottomOf="@id/dbv1"
+            app:startColor="@color/dbv_start"
+            app:titles="@array/num_titles"
+            app:bgColors="@array/ex_bg_colors"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

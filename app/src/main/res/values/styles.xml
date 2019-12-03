@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="DashboardView">
+        <attr name="startColor" format="color"/>
+        <attr name="section" format="integer"/>
+        <attr name="portion" format="integer"/>
+        <attr name="primaryColors" format="reference"/>
+        <attr name="bgColors" format="reference"/>
+        <attr name="titles" format="reference"/>
+    </declare-styleable>
+</resources>
