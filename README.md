@@ -4,7 +4,7 @@
 Android DashBoardView
 
 ## Preview
-![](https://github.com/BinQi/DashBoardView/blob/master/raw/device-2019-12-03-173111.gif/w/281)
+![](https://github.com/BinQi/DashBoardView/blob/master/raw/device-2019-12-03-173111.gif)
 
 ## Usage
 ```Xml
